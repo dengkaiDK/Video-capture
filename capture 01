@@ -71,8 +71,8 @@ while True:
  
     # 显示当前帧并记录用户是否按下按键
     cv2.imshow("Security Feed", frame)
-    cv2.imshow("Thresh", thresh)
-    cv2.imshow("Frame Delta", frameDelta)
+    #cv2.imshow("Thresh", thresh)
+    #cv2.imshow("Frame Delta", frameDelta)
     key = cv2.waitKey(1) & 0xFF
  
     # 如果q键被按下，跳出循环
